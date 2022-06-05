@@ -1,7 +1,7 @@
 {
   "name": "@librafinance-xyz/sdk",
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "🛠 An SDK for building applications on top of librafinance.",
   "main": "dist/index.js",
   "module": "dist/sdk.esm.js",
@@ -23,7 +23,8 @@
     "start": "tsdx watch",
     "test": "tsdx test",
     "prepublishOnly": "tsdx build",
-    "prepare": "rm -rf ./dist && yarn build"
+    "_prepare": "rm -rf ./dist && yarn build",
+    "prepare": ""
   },
   "dependencies": {
     "@uniswap/v2-core": "1.0.0",
