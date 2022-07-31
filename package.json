@@ -1,5 +1,5 @@
 {
-  "name": "@librafinance-xyz/sdk",
+  "name": "@libra_finance/sdk",
   "license": "MIT",
   "version": "1.2.1",
   "description": "🛠 An SDK for building applications on top of librafinance.",
@@ -14,7 +14,7 @@
   "keywords": [
     "librafinance",
     "ethereum",
-    "astar"
+    "avalanche"
   ],
   "scripts": {
     "lint": "tsdx lint src test",
